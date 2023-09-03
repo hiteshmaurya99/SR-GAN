@@ -16,8 +16,9 @@ for discriminator is a combination of Gradient penalty and mean loss.
 
 # Training
 Model was trained on 12k images for 131 epochs with batch size of 16 and implementing pytorch mixed precision for improved performance in training time.
-these are the results i got, could be better with more epochs and training with higher-res target images.
-Low resolution input image-
-![sample_of_input_low_res](https://user-images.githubusercontent.com/26987970/265220830-f9fd3eb7-9585-4b8f-b9e4-8dca2339261b.png)
+these are the results i got, could be better with more epochs and training with higher-res target images.Low resolution input image-
+![](https://user-images.githubusercontent.com/26987970/265220830-f9fd3eb7-9585-4b8f-b9e4-8dca2339261b.png)
+
+
 High resolution output image-
-![sample_output_high_res](https://user-images.githubusercontent.com/26987970/265220856-2cdb3a20-9077-455d-ab8d-f1f90b1bbeee.png)
+![](https://user-images.githubusercontent.com/26987970/265220856-2cdb3a20-9077-455d-ab8d-f1f90b1bbeee.png)
