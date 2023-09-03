@@ -6,6 +6,7 @@ here highres has 4 times thep pixel count of lowres.#I could have used the origi
 ![sample 2](https://user-images.githubusercontent.com/26987970/265220587-3a3ea551-104f-4cf1-8feb-96f5d8651696.png)
 
 The model architecture consists of Convolution block, Upsampling block, Dense-residual block repeated and connnected to form Generator and Discriminator just usees conv blocks with increasing channels.
+Model architecture-
 ![model architecture of sr gan](https://user-images.githubusercontent.com/26987970/265250594-8495ca2b-95b9-40f0-9846-f9dfa69d9284.png)
 
 # Loss function
@@ -15,5 +16,7 @@ for discriminator is a combination of Gradient penalty and mean loss.
 # Training
 Model was trained on 12k images for 131 epochs with batch size of 16 and implementing pytorch mixed precision for improved performance in training time.
 these are the results i got, could be better with more epochs and training with higher-res target images.
+Low resolution input image-
 ![sample of input low res](https://user-images.githubusercontent.com/26987970/265220830-f9fd3eb7-9585-4b8f-b9e4-8dca2339261b.png)
+High resolution output image-
 ![sample output high res](https://user-images.githubusercontent.com/26987970/265220856-2cdb3a20-9077-455d-ab8d-f1f90b1bbeee.png)
