@@ -8,7 +8,7 @@ here highres has 4 times thep pixel count of lowres.#I could have used the origi
 The model architecture consists of Convolution block, Upsampling block, Dense-residual block repeated and connnected to form Generator and Discriminator just usees conv blocks with increasing channels.
 
 Model architecture-
-![model architecture of sr gan](https://user-images.githubusercontent.com/26987970/265250594-8495ca2b-95b9-40f0-9846-f9dfa69d9284.png)
+![model_architecture_of_sr_gan](https://user-images.githubusercontent.com/26987970/265250594-8495ca2b-95b9-40f0-9846-f9dfa69d9284.png)
 
 # Loss function
 for generator L1 loss, VGG loss, Adversarial loss --> gen_loss = l1_loss + loss_for_vgg + adversarial_loss
