@@ -17,8 +17,8 @@ for discriminator is a combination of Gradient penalty and mean loss.
 # Training
 Model was trained on 12k images for 131 epochs with batch size of 16 and implementing pytorch mixed precision for improved performance in training time.
 During the training, A high-resolution image (HR) is downsampled to a low-resolution image (LR). The generator architecture than tries to upsample the image from low resolution to super-resolution, discriminator and tries to distinguish between a super-resolution and High-Resolution image and generate the adversarial loss* gradient penalty which then backpropagated into the generator.
-these are the results i got, could be better with more epochs and training with higher-res target images.
-## Low resolution input image-
+Results i got could be better with more epochs and training with higher-res target images.
+# Low resolution input image-
 ![](https://user-images.githubusercontent.com/26987970/265220830-f9fd3eb7-9585-4b8f-b9e4-8dca2339261b.png)
 
 
